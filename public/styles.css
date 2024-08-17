@@ -1,0 +1,55 @@
+/* Estilos personalizados en styles.css */
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Ajusta según sea necesario */
+}
+
+.logo {
+    max-width: 100px; /* Ajusta el ancho máximo del logo según sea necesario */
+}
+
+/* Estilos para el carrusel */
+#carouselExampleIndicators {
+    width: 30%; /* Tamaño del carrusel */
+    margin: auto; /* Centrar el carrusel */
+}
+
+/* Ajustar el tamaño de las imágenes del carrusel */
+.carousel-item img {
+    width: 100%; /* Ajustar el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    object-fit: cover; /* Ajustar la imagen manteniendo la relación de aspecto y cubriendo el contenedor */
+}
+
+
+/* Centrar texto en el carrusel */
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Estilo para el botón de control del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/* Color del ícono de control del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Estilo para el botón de control del carrusel al pasar el mouse sobre él */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+body {
+    font-style: italic;
+}
+header{
+    font-style: italic;
+}
